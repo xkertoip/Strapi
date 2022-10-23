@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_section_header_section_headers",
+  "info": {
+    "displayName": "Section header",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "indicator": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
