@@ -1,13 +1,9 @@
 'use strict';
 
 /**
- * contact controller
+ * work controller
  */
-
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::contact.contact');
-
-
-
+module.exports = createCoreController('api::work.work');

@@ -10,12 +10,6 @@
       "type": "component",
       "repeatable": false,
       "component": "section-header.section-header"
-    },
-    "projects": {
-      "type": "component",
-      "repeatable": true,
-      "component": "single-elements.proejct",
-      "required": true
     }
   }
 }

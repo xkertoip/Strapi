@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_single_elements_technologies",
+  "info": {
+    "displayName": "Technology",
+    "icon": "hammer"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
