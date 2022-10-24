@@ -76,17 +76,6 @@
       },
       "component": "section-body.skill"
     },
-    "examples": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "section-body.example",
-      "required": true
-    },
     "contact": {
       "type": "component",
       "repeatable": false,
@@ -96,6 +85,26 @@
         }
       },
       "component": "section-body.contact"
+    },
+    "Example": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section-body.examples"
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "single-elements.project"
     }
   }
 }

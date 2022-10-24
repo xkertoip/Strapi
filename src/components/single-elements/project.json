@@ -1,26 +1,22 @@
 {
   "collectionName": "components_single_elements_projects",
   "info": {
-    "displayName": "Project"
+    "displayName": "Project",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "technology": {
-      "type": "component",
-      "repeatable": true,
-      "component": "single-elements.technology"
-    },
     "Title": {
       "type": "string",
       "required": true
     },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "private": true
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "slug": {
       "type": "string",
@@ -29,6 +25,11 @@
     "description": {
       "type": "richtext",
       "required": true
+    },
+    "technology": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-elements.technology"
     }
   }
 }
