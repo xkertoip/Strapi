@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_section_body_introduces",
+  "info": {
+    "displayName": "Introduce",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-header.section-header"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "download_resume": {
+      "type": "string",
+      "required": true
+    },
+    "button_resume": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_section_body_works",
+  "info": {
+    "displayName": "Work",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-header.section-header"
+    },
+    "workplaces": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-elements.worplace",
+      "required": true
+    }
+  }
+}

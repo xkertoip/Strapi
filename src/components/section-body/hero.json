@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_hero_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-header.section-header",
+      "required": true
+    },
+    "cooperation": {
+      "type": "string",
+      "required": true
+    },
+    "check_available": {
+      "type": "string"
+    },
+    "current_status": {
+      "type": "string",
+      "required": true
+    },
+    "contact_me": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "is_available": {
+      "type": "string",
+      "required": true
+    },
+    "button_check": {
+      "type": "string",
+      "required": true
+    },
+    "button_message": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

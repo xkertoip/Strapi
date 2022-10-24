@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_workplace_worplaces",
+  "info": {
+    "displayName": "worplace",
+    "icon": "cart-arrow-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "company": {
+      "type": "string",
+      "required": true
+    },
+    "time": {
+      "type": "date"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "position": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
