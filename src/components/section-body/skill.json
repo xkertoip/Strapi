@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_section_body_skills",
+  "info": {
+    "displayName": "Skill",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-header.section-header",
+      "required": true
+    },
+    "frameworks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-elements.framework",
+      "required": true
+    }
+  }
+}

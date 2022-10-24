@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_email_mail",
+  "info": {
+    "displayName": "mail",
+    "icon": "cannabis"
+  },
+  "options": {},
+  "attributes": {
+    "user_name": {
+      "type": "email",
+      "required": true
+    },
+    "user_message": {
+      "type": "email",
+      "required": true
+    },
+    "user_budget": {
+      "type": "email"
+    },
+    "user_subject": {
+      "type": "email"
+    }
+  }
+}

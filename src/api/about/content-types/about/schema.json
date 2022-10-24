@@ -4,8 +4,7 @@
   "info": {
     "singularName": "about",
     "pluralName": "abouts",
-    "displayName": "About",
-    "description": ""
+    "displayName": "About"
   },
   "options": {
     "draftAndPublish": true
@@ -16,55 +15,37 @@
     }
   },
   "attributes": {
-    "header": {
+    "Date": {
       "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "component": "section-header.section-header"
-    },
-    "button_resume": {
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string",
+      "component": "section-body.introduce",
       "required": true
     },
-    "description": {
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string",
+      "component": "meta.meta",
       "required": true
     },
-    "download_resume": {
+    "Slug": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string",
+      "type": "uid",
+      "default": "about",
       "required": true
-    },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
     }
   }
 }

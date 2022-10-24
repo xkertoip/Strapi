@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_meta_metas",
+  "info": {
+    "displayName": "meta",
+    "icon": "bezier-curve"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
