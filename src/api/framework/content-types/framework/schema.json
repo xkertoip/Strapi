@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "frameworks",
+  "info": {
+    "singularName": "framework",
+    "pluralName": "frameworks",
+    "displayName": "Framework"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "frameworks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-elements.framework"
+    }
+  }
+}
